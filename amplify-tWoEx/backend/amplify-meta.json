@@ -1,0 +1,46 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "ariableecurity1-20181013123428-authRole",
+            "UnauthRoleArn": "arn:aws:iam::926342362638:role/ariableecurity1-20181013123428-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::926342362638:role/ariableecurity1-20181013123428-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ariableecurity1-20181013123428-deployment",
+            "UnauthRoleName": "ariableecurity1-20181013123428-unauthRole",
+            "StackName": "ariableecurity1-20181013123428",
+            "StackId": "arn:aws:cloudformation:us-east-1:926342362638:stack/ariableecurity1-20181013123428/3abd62e0-ceb6-11e8-84a9-50fae9882035"
+        }
+    },
+    "auth": {
+        "cognito51616759": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/ariableecurity1-20181013123428-deployment/amplify-cfn-templates/auth/cognito51616759-cloudformation-template.yml",
+                "logicalId": "authcognito51616759"
+            },
+            "lastPushTimeStamp": "2018-10-13T07:10:10.051Z",
+            "output": {
+                "AppClientSecret": "ia9ifit9tmq3des6i2eimuuffb6e9q9veln6hkohppfdp5p2h4a",
+                "UserPoolId": "us-east-1_Ebibw5GKs",
+                "AppClientIDWeb": "5v8dmmfidrsofo4u8pmbok51iu",
+                "AppClientID": "3gpsm4gc93bti3l2dim6ra5qi2",
+                "IdentityPoolId": "us-east-1:203238ff-42ef-4740-98db-1ae79865f7ea",
+                "IdentityPoolName": "cognito51616759_identitypool_51616759",
+                "UserPoolName": "cognito51616759_userpool_51616759"
+            },
+            "lastPushDirHash": "MCA4Aqp6DINNdIbF39m78JFAWGE="
+        }
+    },
+    "storage": {
+        "varsec": {
+            "service": "S3",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/ariableecurity1-20181013123428-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+                "logicalId": "storagevarsec"
+            },
+            "lastPushTimeStamp": "2018-10-13T07:49:57.365Z"
+        }
+    }
+}

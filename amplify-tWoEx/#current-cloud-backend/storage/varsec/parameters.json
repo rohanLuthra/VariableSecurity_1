@@ -1,0 +1,9 @@
+{
+    "bucketName": "rekog-imgto3train",
+    "authPolicyName": "s3_amplify_6b8008f6",
+    "unauthPolicyName": "s3_amplify_6b8008f6",
+    "authRoleName": "ariableecurity1-20181013123428-authRole",
+    "unauthRoleName": "ariableecurity1-20181013123428-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": "rw"
+}

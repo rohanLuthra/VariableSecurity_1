@@ -1,0 +1,13 @@
+{
+    "projectName": "VariableSecurity1",
+    "providers": [
+        "awscloudformation"
+    ],
+    "frontend": "android",
+    "android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    },
+    "version": "2.0"
+}

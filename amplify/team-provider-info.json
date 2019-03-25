@@ -1,0 +1,31 @@
+{
+    "NONE": {
+        "awscloudformation": {
+            "AuthRoleName": "ariableecurity1-20181013123428-authRole",
+            "UnauthRoleArn": "arn:aws:iam::926342362638:role/ariableecurity1-20181013123428-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::926342362638:role/ariableecurity1-20181013123428-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ariableecurity1-20181013123428-deployment",
+            "UnauthRoleName": "ariableecurity1-20181013123428-unauthRole",
+            "StackName": "ariableecurity1-20181013123428",
+            "StackId": "arn:aws:cloudformation:us-east-1:926342362638:stack/ariableecurity1-20181013123428/3abd62e0-ceb6-11e8-84a9-50fae9882035"
+        }
+    },
+    "temp": {
+        "awscloudformation": {
+            "AuthRoleName": "variablesecurity1-20190325223407-authRole",
+            "UnauthRoleArn": "arn:aws:iam::926342362638:role/variablesecurity1-20190325223407-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::926342362638:role/variablesecurity1-20190325223407-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "variablesecurity1-20190325223407-deployment",
+            "UnauthRoleName": "variablesecurity1-20190325223407-unauthRole",
+            "StackName": "variablesecurity1-20190325223407",
+            "StackId": "arn:aws:cloudformation:eu-west-1:926342362638:stack/variablesecurity1-20190325223407/0040b820-4f20-11e9-883f-023c5f756674"
+        },
+        "categories": {
+            "auth": {
+                "cognito51616759": {}
+            }
+        }
+    }
+}

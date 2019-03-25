@@ -1,0 +1,16 @@
+{
+    "projectName": "VariableSecurity1",
+    "projectPath": "C:\\Users\\BuNnY\\Downloads\\VariableSecurity_1",
+    "defaultEditor": "sublime",
+    "frontendHandler": {
+        "android": "C:\\Users\\BuNnY\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-android"
+    },
+    "amplify-frontend-android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    },
+    "providers": {
+        "awscloudformation": "C:\\Users\\BuNnY\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
+    }
+}

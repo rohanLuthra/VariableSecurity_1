@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="RegisterActivity"
+    android:background="@drawable/grey_gradient_background"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/grey_3"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/grey_10"
+            android:hint="NAME"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/grey_7"
+            android:inputType="text"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/grey_3"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/grey_10"
+            android:hint="EMAIL"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/grey_7"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/grey_3"
+            android:layout_marginBottom="20dp"
+            android:hint="PASSWORD"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/grey_7"
+            android:inputType="textPassword"
+            android:singleLine="true"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_10"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="SignUp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

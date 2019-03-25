@@ -1,0 +1,13 @@
+{
+    "bucketName": "sample-rekog",
+    "authPolicyName": "s3_amplify_6b4a3927",
+    "unauthPolicyName": "s3_amplify_6b4a3927",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": "rw"
+}
